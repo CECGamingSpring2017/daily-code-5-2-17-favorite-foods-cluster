@@ -1,0 +1,16 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+	string Foods[7];
+	Foods[1] = "pasta";
+	Foods[2] = "pasta";
+	Foods[3] = "pasta";
+	Foods[4] = "pasta";
+	Foods[5] = "pasta";
+	Foods[6] = "pasta";
+	Foods[7] = "pasta";
+	for (int i = 0; i < 7; i++) {
+		cout << Foods[i] << endl;
+	}
+}
